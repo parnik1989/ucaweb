@@ -1,0 +1,39 @@
+import { NgModule } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
+import { AaynaComponent } from './aayna/aayna.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
+import { DurgotsavComponent } from './durgotsav/durgotsav.component';
+import { Durgotsav2020Component } from './durgotsav2020/durgotsav2020.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { HomeComponent } from './home/home.component';
+import { MembershipComponent } from './membership/membership.component';
+import { NewyearComponent } from './newyear/newyear.component';
+import { PanchamiComponent } from './panchami/panchami.component';
+import { PicnicComponent } from './picnic/picnic.component';
+import { SmileComponent } from './smile/smile.component';
+import { SponsorComponent } from './sponsor/sponsor.component';
+
+
+const routes: Routes = [
+  { path: '', component:  HomeComponent },
+  { path: 'home', component:  HomeComponent },
+  { path: 'about', component: AboutComponent },
+  { path: 'durgotsav2020', component: Durgotsav2020Component },
+  { path: 'membership', component: MembershipComponent },
+  { path: 'gallery', component: GalleryComponent },
+  { path: 'sponsers', component: SponsorComponent },
+  { path: 'contactUs', component: ContactComponent },
+  { path: 'durgotsav', component: DurgotsavComponent },
+  { path: 'aayna', component: AaynaComponent },
+  { path: 'newyear', component: NewyearComponent },
+  { path: 'smile', component: SmileComponent },
+  { path: 'picnic', component: PicnicComponent },
+  { path: 'spuja', component: PanchamiComponent },
+];
+
+@NgModule({
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
+})
+export class AppRoutingModule { }

@@ -1,0 +1,19 @@
+.basic-container {
+    padding: 5px;
+    margin: 0%;
+}
+
+li {
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+    color: white;
+}
+
+p {
+    padding: 2%;
+    font-size: 20px;
+    font-family: 'Montaga, serif';
+    color: #fff;
+    text-align: justify;
+}
