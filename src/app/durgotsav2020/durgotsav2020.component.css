@@ -7,3 +7,32 @@ img {
     width: 100%;
     padding: 2% 0%;
 }
+
+.bookinglink {
+    color: white;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    text-decoration: none;
+    font-family: 'Macondo Swash Caps', cursive;
+    font-size: 25px;
+}
+
+@keyframes glowing {
+    0% {
+        background-color: #1326d8;
+        box-shadow: 0 0 5px #1326d8;
+        ;
+    }
+    50% {
+        background-color: #1326d8;
+        box-shadow: 0 0 20px #1326d8;
+    }
+    100% {
+        background-color: #2ba805;
+        box-shadow: 0 0 5px #2ba805;
+    }
+}
+
+.bookinglink {
+    animation: glowing 1300ms infinite;
+}

@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { AaynaComponent } from './aayna/aayna.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+import { DonationComponent } from './donation/donation.component';
 import { DurgotsavComponent } from './durgotsav/durgotsav.component';
 import { Durgotsav2020Component } from './durgotsav2020/durgotsav2020.component';
 import { GalleryComponent } from './gallery/gallery.component';
@@ -30,6 +31,7 @@ const routes: Routes = [
   { path: 'smile', component: SmileComponent },
   { path: 'picnic', component: PicnicComponent },
   { path: 'spuja', component: PanchamiComponent },
+  { path: 'donation', component: DonationComponent },
 ];
 
 @NgModule({

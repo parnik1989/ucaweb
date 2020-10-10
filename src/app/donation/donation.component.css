@@ -1,0 +1,12 @@
+.bookinglink {
+    color: white;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+    text-decoration: none;
+    font-family: 'Macondo Swash Caps', cursive;
+    font-weight: bolder;
+}
+
+img {
+    width: 90%;
+}

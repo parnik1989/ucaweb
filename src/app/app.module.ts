@@ -20,6 +20,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { NgxGalleryModule } from 'ngx-gallery-9';
 import {TabsModule} from 'ngx-tabset';
+import { DonationComponent } from './donation/donation.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,7 +38,8 @@ import {TabsModule} from 'ngx-tabset';
     GalleryComponent,
     ContactComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    DonationComponent
   ],
   imports: [
     BrowserModule,

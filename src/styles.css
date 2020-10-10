@@ -186,6 +186,16 @@ button {
     background-color: #000
 }
 
+.nav-tabset:not(.disable-style) .nav-tab.active {
+    font-weight: bold;
+    color: white;
+}
+
+.nav-tabset:not(.disable-style) .nav-tab {
+    font-weight: bold;
+    color: white;
+}
+
 @media only screen and (max-width:700px) {
     .basic-container {
         padding: 5px;
