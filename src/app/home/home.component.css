@@ -14,13 +14,13 @@ img {
 .bottom-left {
     position: absolute;
     bottom: 40%;
-    left: 3%;
+    left: 15%;
 }
 
 .bottom-right {
     position: absolute;
     bottom: 40%;
-    right: 3%;
+    right: 15%;
 }
 
 @media (max-width: 480px) {
