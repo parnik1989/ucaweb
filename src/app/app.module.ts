@@ -21,6 +21,7 @@ import { FooterComponent } from './footer/footer.component';
 import { NgxGalleryModule } from 'ngx-gallery-9';
 import {TabsModule} from 'ngx-tabset';
 import { DonationComponent } from './donation/donation.component';
+import { MobileComponent } from './mobile/mobile.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,7 +40,8 @@ import { DonationComponent } from './donation/donation.component';
     ContactComponent,
     HeaderComponent,
     FooterComponent,
-    DonationComponent
+    DonationComponent,
+    MobileComponent
   ],
   imports: [
     BrowserModule,
