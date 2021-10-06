@@ -6,6 +6,7 @@ import { ContactComponent } from './contact/contact.component';
 import { DonationComponent } from './donation/donation.component';
 import { DurgotsavComponent } from './durgotsav/durgotsav.component';
 import { Durgotsav2020Component } from './durgotsav2020/durgotsav2020.component';
+import { Durgotsav2021Component } from './durgotsav2021/durgotsav2021.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { HomeComponent } from './home/home.component';
 import { MembershipComponent } from './membership/membership.component';
@@ -21,6 +22,7 @@ const routes: Routes = [
   { path: 'home', component:  HomeComponent },
   { path: 'about', component: AboutComponent },
   { path: 'durgotsav2020', component: Durgotsav2020Component },
+  { path: 'durgotsav2021', component: Durgotsav2021Component },
   { path: 'membership', component: MembershipComponent },
   { path: 'gallery', component: GalleryComponent },
   { path: 'sponsers', component: SponsorComponent },

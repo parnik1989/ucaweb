@@ -41,6 +41,36 @@ export class GalleryComponent implements OnInit {
 
     this.galleryImages = [
       {
+        small: 'assets/images/gallery/DP30.jpg',
+        medium: 'assets/images/gallery/DP30.jpg',
+        big: 'assets/images/gallery/DP30.jpg'
+      },
+      {
+        small: 'assets/images/gallery/DP31.jpg',
+        medium: 'assets/images/gallery/DP31.jpg',
+        big: 'assets/images/gallery/DP31.jpg'
+      },
+      {
+        small: 'assets/images/gallery/DP32.jpg',
+        medium: 'assets/images/gallery/DP32.jpg',
+        big: 'assets/images/gallery/DDP32P1.jpg'
+      },
+      {
+        small: 'assets/images/gallery/DP33.jpg',
+        medium: 'assets/images/gallery/DP33.jpg',
+        big: 'assets/images/gallery/DP33.jpg'
+      },
+      {
+        small: 'assets/images/gallery/DP34.jpg',
+        medium: 'assets/images/gallery/DP34.jpg',
+        big: 'assets/images/gallery/DP34.jpg'
+      },
+      {
+        small: 'assets/images/gallery/DP35.jpg',
+        medium: 'assets/images/gallery/DP35.jpg',
+        big: 'assets/images/gallery/DP35.jpg'
+      },
+      {
         small: 'assets/images/gallery/DP1.jpg',
         medium: 'assets/images/gallery/DP1.jpg',
         big: 'assets/images/gallery/DP1.jpg'

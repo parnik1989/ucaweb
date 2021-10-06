@@ -10,3 +10,26 @@
 img {
     width: 90%;
 }
+
+.pujo-dala {
+    padding: 30px;
+    min-height: 500px;
+    color: white;
+    text-align: left;
+    font-size: x-large;
+    font-family: 'Macondo Swash Caps', cursive;
+}
+
+.booking-button {
+    display: inline-block;
+    background-color: transparent;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 230px;
+    height: 50px;
+    font-family: 'Macondo Swash Caps', cursive;
+    text-align: center;
+    color: red;
+    font-weight: 900;
+    font-size: 30px;
+}
