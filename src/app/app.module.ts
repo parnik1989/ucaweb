@@ -23,6 +23,7 @@ import {TabsModule} from 'ngx-tabset';
 import { DonationComponent } from './donation/donation.component';
 import { MobileComponent } from './mobile/mobile.component';
 import { Durgotsav2021Component } from './durgotsav2021/durgotsav2021.component';
+import { Durgotsav2022Component } from './durgotsav2022/durgotsav2022.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -43,7 +44,8 @@ import { Durgotsav2021Component } from './durgotsav2021/durgotsav2021.component'
     FooterComponent,
     DonationComponent,
     MobileComponent,
-    Durgotsav2021Component
+    Durgotsav2021Component,
+    Durgotsav2022Component
   ],
   imports: [
     BrowserModule,
