@@ -1,6 +1,5 @@
 {
   "projects": {
-    "default": "utsab-t2",
-    "prod": "utsab-t2"
+    "default": "utsab-t2"
   }
 }
