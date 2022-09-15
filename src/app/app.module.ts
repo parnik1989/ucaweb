@@ -1,6 +1,5 @@
 import { BrowserModule, HAMMER_GESTURE_CONFIG } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DurgotsavComponent } from './durgotsav/durgotsav.component';
@@ -18,7 +17,6 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { ContactComponent } from './contact/contact.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { NgxGalleryModule } from 'ngx-gallery-9';
 import {TabsModule} from 'ngx-tabset';
 import { DonationComponent } from './donation/donation.component';
 import { MobileComponent } from './mobile/mobile.component';
@@ -50,9 +48,9 @@ import { Durgotsav2022Component } from './durgotsav2022/durgotsav2022.component'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgxGalleryModule,
     TabsModule.forRoot()
   ],
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA],
   providers: [],
   bootstrap: [AppComponent]
 })

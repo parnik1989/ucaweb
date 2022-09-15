@@ -7,3 +7,24 @@ img {
     width: 100%;
     padding: 2% 0%;
 }
+.heading {
+    font-size: 30px;
+}
+h2 {
+    margin: 0px;
+}
+button {
+    display: inline-block;
+    background-color: white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 180px;
+    height: 35px;
+    font-family: 'Macondo Swash Caps';
+    text-align: center;
+    color: red;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 20%;
+    border: 2px solid red;
+}
