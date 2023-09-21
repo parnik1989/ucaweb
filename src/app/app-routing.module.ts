@@ -16,6 +16,7 @@ import { PanchamiComponent } from './panchami/panchami.component';
 import { PicnicComponent } from './picnic/picnic.component';
 import { SmileComponent } from './smile/smile.component';
 import { SponsorComponent } from './sponsor/sponsor.component';
+import { Durgotsav2023Component } from './durgotsav2023/durgotsav2023.component';
 
 
 const routes: Routes = [
@@ -25,6 +26,7 @@ const routes: Routes = [
   { path: 'durgotsav2020', component: Durgotsav2020Component },
   { path: 'durgotsav2021', component: Durgotsav2021Component },
   { path: 'durgotsav2022', component: Durgotsav2022Component },
+  { path: 'durgotsav2023', component: Durgotsav2023Component },
   { path: 'membership', component: MembershipComponent },
   { path: 'gallery', component: GalleryComponent },
   { path: 'sponsers', component: SponsorComponent },
