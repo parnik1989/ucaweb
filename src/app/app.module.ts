@@ -23,6 +23,7 @@ import { MobileComponent } from './mobile/mobile.component';
 import { Durgotsav2021Component } from './durgotsav2021/durgotsav2021.component';
 import { Durgotsav2022Component } from './durgotsav2022/durgotsav2022.component';
 import { Durgotsav2023Component } from './durgotsav2023/durgotsav2023.component';
+import { Durgotsav2024Component } from './durgotsav2024/durgotsav2024.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -45,7 +46,8 @@ import { Durgotsav2023Component } from './durgotsav2023/durgotsav2023.component'
     MobileComponent,
     Durgotsav2021Component,
     Durgotsav2022Component,
-    Durgotsav2023Component
+    Durgotsav2023Component,
+    Durgotsav2024Component
   ],
   imports: [
     BrowserModule,

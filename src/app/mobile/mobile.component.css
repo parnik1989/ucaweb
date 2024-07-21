@@ -15,7 +15,7 @@ h2 {
 }
 button {
     display: inline-block;
-    background-color: white;
+    background-color: #c60817;
     margin-top: 5%;
     margin-bottom: 5%;
     width: 180px;
@@ -25,6 +25,20 @@ button {
     color: red;
     font-weight: 500;
     font-size: 20px;
-    border-radius: 20%;
+    border-radius: 15%;
     border: 2px solid red;
+    width:40%
+}
+
+.bottom-left {
+    position: absolute;
+    right: 5%;
+}
+
+.bottom-right {
+    position: absolute;
+    right: 55%;
+}
+.button-position {
+    height: auto;
 }
